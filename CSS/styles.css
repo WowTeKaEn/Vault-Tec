@@ -1,0 +1,744 @@
+@font-face {
+    font-family: "overseerbold_italic";
+    src: url("fonts/overseer_bold_italic-webfont.woff2") format("woff2"),
+    url("fonts/overseer_bold_italic-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "overseerbold";
+    src: url("fonts/overseer_bold-webfont.woff2") format("woff2"),
+    url("fonts/overseer_bold-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "overseeritalic";
+    src: url("fonts/overseer_italic-webfont.woff2") format("woff2"),
+    url("fonts/overseer_italic-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "overseerregular";
+    src: url("fonts/overseer-webfont.woff2") format("woff2"),
+    url("fonts/overseer-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.landing h1 {
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+    width: 27vw;
+    height: 0;
+    font-size: 8vw;
+}
+.landing p {
+    margin-left: 10%;
+    position: relative;
+    top: 5vw;
+    width: 80vw;
+    height: 0;
+    font-size: 4vw;
+}
+.landing {
+    text-shadow: -3px 0 black, 0 1px black, 1px 0 black, 0 -3px black;
+    background-color: #3581b8;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 22%;
+    padding-bottom: 25%;
+    color: white;
+    display: flex;
+    align-items: flex-start;
+    flex-flow: column nowrap;
+    font-family: "overseerbold_italic";
+}
+
+h2 {
+    font-family: "overseerbold";
+    font-size: 3rem;
+}
+
+.Login .button {
+    text-decoration: none;
+    font-family: "overseeritalic";
+    color: white;
+    border: #3581b8 solid 10px;
+    display: flex;
+    justify-content: center;
+    border-radius: 100px;
+    font-size: 1.5rem;
+    padding: 20px;
+    width: 150px;
+    margin: 20px;
+    background-color: #3581b8;
+}
+
+.Login {
+    display: flex;
+    justify-content: center;
+    flex-flow: row nowrap;
+    align-content: space-around;
+    margin-bottom: 200px;
+    background-color: rgba(255, 236, 149, 0.74);
+}
+
+.vaultboy {
+    position: absolute;
+    width: 30vw;
+    margin-left: 65%;
+    top: 10vw;
+}
+
+.info {
+    background-color: #3581b8;
+    text-align: center;
+    color: rgba(12, 11, 11, 0.856);
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+.landing p {
+    font-family: "overseerbold_italic";
+}
+
+.showcase {
+    color: rgba(12, 11, 11, 0.856);
+    font-family: "overseerregular";
+    font-size: 2rem;
+    display: flex;
+    flex-flow: column nowrap;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.showcase h3{
+    margin-bottom: 50px;
+}
+
+.showcase .txt {
+    display: flex;
+    flex-flow: row nowrap;
+
+    justify-content: space-around;
+    text-align: left;
+}
+
+.box {
+    width: 80%;
+    border: solid #3581b856;
+    background-color: #014f7c0e;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-flow: column nowrap;
+
+}
+
+.border .box{
+    width: auto;
+}
+
+
+.box p{
+    color: rgba(12, 11, 11, 0.63);
+    font-family: "arial";
+ 
+}
+
+.box a {
+    color: #3581b8;
+    text-decoration: none;
+    margin-top: auto;
+    align-content: flex-end;
+    align-self: flex-end;
+    align-items: flex-end;
+}
+
+
+footer {
+    position: relative;
+
+    background-color:#3581B8;
+    width: 100%;
+    padding-top: 15px;
+    color: white;
+
+}
+
+footer div {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+footer ul a{
+    color: white;
+}
+
+footer div p{
+    width: 20%;
+}
+
+footer div ul{
+    list-style-type: none;
+}
+
+footer div img{
+    height: 10%;
+    width: 10%;
+}
+
+.footbellen{
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    color: white;
+    font-size: 40px;
+    font-family: 'overseerbold';
+}
+
+
+form {
+    border: 3px solid #f1f1f1;
+}
+
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+
+button, .loginButton{
+    background-color: #3581B8;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-radius: 100px;
+    text-align: center;
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+
+img.avatar {
+    margin-top: 5%;
+    display: flex;
+    justify-content: flex-start;
+    width: 10%;
+}
+
+
+.container {
+    padding: 16px;
+}
+
+span.password {
+    float: right;
+    padding-top: 16px;
+}
+
+h1{
+    height: auto;
+    display: flex;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    justify-content: flex-start;
+    font-family: "overseerbold_italic";
+    color: white;
+    text-shadow: -3px 0 black, 0 1px black, 1px 0 black, 0 -3px black;
+}
+
+.bijdrage input{
+    height: 200px;
+}
+
+a:hover
+{
+    color: goldenrod;  /*/Veranderd door mij Bas/*/
+}
+
+#menuToggle
+{
+    display: block;
+    position: relative;
+    top: 17px;
+    left: 17px;
+    width:10%;
+
+    z-index: 1;
+
+    -webkit-user-select: none;
+    user-select: none;
+
+}
+
+#menuToggle input
+{
+    display: block;
+    width: 40px;
+    height: 32px;
+    position: absolute;
+    top: -7px;
+    left: -5px;
+
+    cursor: pointer;
+
+    opacity: 0;
+    z-index: 2;
+
+    -webkit-touch-callout: none;
+}
+
+#menuToggle span
+{
+    display: block;
+    width: 33px;
+    height: 4px;
+    margin-bottom: 5px;
+    position: relative;
+
+    background: goldenrod; /*/Veranderd door mij Bas/*/
+    border-radius: 3px;
+
+    z-index: 1;
+
+    transform-origin: 4px 0px;
+
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+    background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+    opacity 0.55s ease;
+}
+
+#menuToggle span:first-child
+{
+    transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2)
+{
+    transform-origin: 0% 100%;
+}
+
+
+#menuToggle input:checked ~ span
+{
+    opacity: 1;
+    transform: rotate(45deg) translate(-2px, -1px);
+    background: goldenrod; /*/Veranderd door mij Bas/*/
+}
+
+
+#menuToggle input:checked ~ span:nth-last-child(3)
+{
+    opacity: 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+#menuToggle input:checked ~ span:nth-last-child(2)
+{
+    transform: rotate(-45deg) translate(0, -1px);
+}
+
+#menu
+{
+    position: absolute;
+    width: 300px;
+    margin: -100px 0 0 -50px;
+    padding: 50px;
+    padding-top: 125px;
+    background: #ededed;
+    list-style-type: none;
+    font-family: "overseerbold_italic"; /*/Veranderd door mij Bas/*/
+    color: black;  /*/Toegevoegd door mij Bas/*/
+    transform-origin: 0% 0%;
+    transform: translate(-100%, 0);
+
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu li
+{
+    padding: 10px 0;
+    font-size: 30px; /*/Veranderd door mij Bas/*/
+}
+
+#menuToggle input:checked ~ ul
+{
+    transform: none;
+}
+
+a
+{
+    text-decoration: none;
+    color: #232323;
+
+    transition: color 0.3s ease;
+}
+
+.border{
+
+    border: solid 5px rgba(192, 189, 189, 0.596);
+    padding: 50px;
+    display:flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.borderframe{
+    display:flex;
+    flex-flow: column wrap;
+    align-items: center;
+    width: 100%;
+}
+
+iframe{
+    margin: 1%;
+    margin-bottom: 20px;
+}
+
+nav {
+    height:0;
+}
+
+.video{
+    flex-flow: column wrap;
+}
+
+
+
+.navfill{
+    width: 100%;
+    height: 50px;
+    background-color: #3581B8;
+}
+
+.videoH1{
+    width: 100%;
+    font-family: "Overseerbold_italic";
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.border .border{
+    padding: 1%;
+}
+
+.name{
+    margin-bottom: 2%;
+    width: 100%;
+    text-align: left;
+}
+
+
+
+.timestamp{
+    width: 100%;
+    color: rgba(202, 183, 183, 0.473);
+}
+
+.about{
+    flex-flow: column nowrap;
+}
+
+.fixTekst{
+    width: 70%;
+}
+
+.kopje{
+    font-family: "overseerbold_italic";
+    font-size: 30px;
+}
+
+.box img{
+    margin-left: 30%;
+
+    width: 40%;
+    height: 40%;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    body{
+        overflow-x:hidden;
+    }
+    footer div{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    footer div p{
+        width: 80%;
+        margin-bottom: 5px;
+    }
+    footer div img{
+        height: 40%;
+        width: 40%;
+    }
+    .showcase .txt{
+        flex-direction: column;
+        margin: 0;
+        width: 100%;
+        align-items: center;
+    }
+    #menu{
+        width: 100vw;
+        top: 0;
+        left: 0;
+    }
+    .Login{
+        flex-direction: column;
+        align-items: center;
+    }
+    form:first-of-type h1:first-of-type{
+        margin-top: 40px;
+    }
+    button{
+        width: 100%;
+    }
+    span.password {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-device-width : 1081px) {
+    *{
+        font-size: 2rem;
+    }
+
+    .kopje{
+        font-size: 80px;
+    }
+
+    .fixTekst{
+        font-size: 1.5rem;
+        width:100%;
+    }
+    
+    li a{
+        font-size: 0.5em;
+    }
+    #menu li a{
+        font-size: 3em;
+    }
+    .footbellen{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 1.2em;
+    }
+    body{
+        overflow-x:hidden;
+    }
+    footer div{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    footer div p{
+        width: 80%;
+        margin-bottom: 5px;
+    }
+    footer div img{
+        height: 40%;
+        width: 40%;
+    }
+    .showcase .txt{
+        flex-direction: column;
+        margin: 0;
+        width: 100%;
+        align-items: center;
+    }
+    #menu{
+        width: 90vw;
+        top: 0;
+        left: 0;
+    }
+    iframe{
+        width: 80vw;
+        height: 80vw;
+    }
+    .videoH1{
+        text-shadow: -50px 0 black, 0 50px black, 50px 0 black, 0 -50px black;
+    }
+    #menuToggle{
+        top: 55px;
+    }
+    #menuToggle span{
+        margin-bottom: 29px;
+        width: 100px;
+        
+    }
+    #menuToggle input{
+        width: 80px;
+        height: 80px;
+    }
+    #menu{
+        padding-top:150px;
+        top: 10px;
+    }
+    .navfill{
+        height: 150px;
+    }
+    .Login{
+        flex-direction: column;
+        align-items: center;
+    }
+    form:first-of-type h1:first-of-type{
+        margin-top: 40px;
+    }
+    button{
+        width: 100%;
+    }
+    span.password {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+
+}
+
+
+
+@media only screen and (min-width: 1081px) {
+    form{
+        margin-left: 20%;
+        margin-right: 20%;
+        border: white;
+    }
+    form div{
+        background-color: white;
+    }
+}
+
+.UserLetter{
+    font-family: "overseerregular";
+    text-shadow: -2px 0 black, 0 1px black, 1px 0 black, 0 -2px black;
+    color: white;
+    position: absolute;
+    right: 5px;
+    padding: 0px 10px 0px 10px;
+    font-size: 30px;
+    background-color: wheat;
+    border: 2px solid goldenrod;
+}
+
+.log-content{
+    position: absolute;
+    right: 0px;
+    width: 17px;
+    height: 34px;
+    margin: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border: none
+}
+.logoff{
+    padding: 10px;
+    display: none;
+    position: absolute;
+    z-index: 1;
+    top: 37px;
+    right: 0;
+}
+.log-content:hover .logoff{
+display: block;
+}
+
+textarea{
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 100px;
+    max-height: 1000px;
+    border: solid 1px #3581B8;
+}
+ .topics{
+
+width: 99%;
+height: 100%;
+background-color: grey;
+border: 2px solid black;
+
+ }
+
+ .topicHide{
+     
+     background-color: #232323;
+ }
+
+ .forumpost{
+    justify-content: flex-start;
+    align-content: space-around;
+    display: block;
+    background-color: white;
+}
+
+.topic{
+    display: none;
+}
+
+.topicbtn{
+position: absolute;
+width: 80%;
+height: 2%;
+opacity: 0;
+
+}
+
+.topicbtn:checked + .topic{
+    display: block;
+}
+
